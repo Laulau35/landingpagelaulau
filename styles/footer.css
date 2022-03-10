@@ -1,0 +1,55 @@
+
+.footer {
+	background-color: #e8fce5;
+	display: flex;
+	justify-content: space-around;
+	align-content: space-between;
+	align-items: flex-start;
+	height: 300px;
+	text-align: left;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+/* cologne 1 */
+
+#logo_cest-regle-b {
+	height: 50px;
+	object-fit: cover;
+}
+
+/* cologne 2 et 3 */
+
+.footer_list {
+	padding: 0;
+	list-style: none;
+}
+
+.lignes-list {
+		color: #F0785F;
+}
+
+.lignes-list:hover {
+		color: #55BBC1;
+}
+
+/* cologne 4 */
+
+.list-inline {
+	padding: 0;
+	list-style: none;
+}
+
+.list-inline li {
+	display: inline;
+	margin: 0 8px;
+	font-size: 20px;
+}
+
+.fa-brands {
+	color: #F0785F;
+}
+
+.fa-brands:hover {
+	color: #55BBC1;
+}

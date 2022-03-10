@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("pre-banner.css");
+@import url("banner.css");
+@import url("buttons.css");
+@import url("shop.css");
+@import url("cards.css");
+@import url("footer.css");
+
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+body {
+	font-family: 'Noto Serif', serif;
+	color: black;
+}
+
+h1 {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	color: #F0785F;
+}
+
+h2 {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 60px;
+	color: white;
+	margin: 0;
+}
+
+h3 {
+	font-family: 'Noto Serif', serif;
+	color: white;
+}
+
+h4 {
+	font-family: 'Noto Serif', serif;
+	color: #777777;
+}
+
+h5 {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 25px;
+	margin: 0;
+	color: #F0785F;
+	text-align: center;
+}
+
+/* sixth element - Categories */
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: 1px 1px 2px #8b2739;
+
+}
+
+/* last element - Footer */

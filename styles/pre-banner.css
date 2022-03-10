@@ -1,0 +1,66 @@
+#banner_promo {
+	background-color: #55BBC1;
+	height: 5vh;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner_promo:hover {
+	text-decoration: underline;
+	transition: 1s;
+}
+
+#haut_de_page {
+	color: #F0785F;
+	height: 75px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo_cest-regle {
+	width: 200px; 
+	height: 60px;
+	object-fit: cover;
+}
+
+#in_haut_a {
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	font-weight: lighter;
+	font-family: 'Noto Sans', sans-serif;
+	color: #F0785F;
+
+}
+
+.item_in_haut_a {
+	color: #F0785F;
+}
+
+.item_in_haut_a:hover {
+	font-weight: bolder;
+	color: #55BBC1;
+}
+
+#in_haut_b {
+	width: 50px;
+	color: #F0785F;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	padding: 0px 13px 0px 0px;
+}
+
+.fa-solid {
+	color: #F0785F;
+}
+
+.fa-solid:hover {
+	color: #55BBC1;
+}
