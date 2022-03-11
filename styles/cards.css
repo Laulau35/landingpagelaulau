@@ -1,20 +1,38 @@
 .cards {
 	display: grid;
 	grid-template-columns: 1fr;
-	/* version mobile first, sinon c'est 1fr, 1fr, 1fr, 1fr */
 	grid-gap: 16px;
 }
 
 .card {
-	background-color: pink;
-	margin-top: 24px;
+	margin-top: 40px;
+	margin-bottom: 30px;
 	text-align: center;
+	border-radius: 30px;
+	height: 300px;
+	width: 200px;
 	padding: 20px;
-	border border-radius: 20px;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.card img {
-	height: 100px;
+#card-a {
+	background-image: url("../images/categorie-a.webp");
+}
+
+#card-b {
+	background-image: url("../images/categorie-b.webp");
+}
+
+#card-c {
+	background-image: url("../images/categorie-c.webp");
+}
+
+#card-d {
+	background-image: url("../images/categorie-d.webp");
 }
 
 @media (min-width: 576px) {

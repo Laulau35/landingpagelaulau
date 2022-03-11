@@ -38,11 +38,14 @@
 
 }
 
-.item_in_haut_a {
+#in_haut_a a {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
 	color: #F0785F;
+	font-weight: bolder;
 }
 
-.item_in_haut_a:hover {
+#in_haut_a a:hover {
 	font-weight: bolder;
 	color: #55BBC1;
 }
