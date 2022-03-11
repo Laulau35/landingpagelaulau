@@ -3,6 +3,7 @@
 	background-image: url("../images/banner.jpg");
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
